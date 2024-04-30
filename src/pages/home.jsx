@@ -8,7 +8,7 @@ import 'aos/dist/aos.css';
 
 const Home = () => {
   useEffect(() => {
-    document.title="Profficiis-home"
+    document.title="Profficiis-Home"
     AOS.init({
       duration: 2000,
       once: true, 
