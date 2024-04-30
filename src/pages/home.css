@@ -1,0 +1,128 @@
+.home_img{
+    padding: 1rem;
+    width: 100% ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    /* background-image:url(../assets/images/img1.jpeg) ;
+    background-size: cover;
+  
+    background-repeat: no-repeat; */
+
+
+}
+
+.home_img img{
+    width: 100%;
+    height:23rem;
+    border-radius: 1rem;
+    width: min-content;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.home_title1{
+    margin-left: 4rem;
+    font-size: 3rem;
+}
+.home_title2{
+    color: var(--text-color);
+    font-size: 1.2rem;
+    left: 0;
+    margin-top: 1rem;
+}
+
+.btn1{
+    color: black !important;
+    background-color: var( --secondary-color) !important;
+    border-color:var(--secondary-color) !important ;
+}
+
+.btn2{
+    color: black !important;
+    background-color: whitesmoke !important;
+    border-color: gray !important;
+}
+.horizontal-line {
+  margin-top: 2rem !important;
+  height: 3rem;
+  width: 100%; 
+  background: linear-gradient(to right, var(--primary-color), #BC9C22); 
+}
+
+  
+.home_title3{
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+
+.home_par{
+  color: var(--text-color);
+  font-size: 1.2rem;
+  margin-top: 1rem;
+
+}
+
+.home_img2 img{
+  width: 40rem !important;
+  height: 100%;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  
+
+}
+.btn3{
+  color: black !important;
+  background-color: whitesmoke !important;
+  border-color: white !important;
+}
+
+.card_body{
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  
+}
+.card_title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_subtitle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  color: var(--primary-color);
+  
+}
+
+.card_subtitles{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  
+}
+
+.card-text{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-left: 0.5rem;
+}
+
+.card_body i{
+ font-size: 2.5rem;
+}
+
+.cards{
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+
