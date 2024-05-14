@@ -22,12 +22,21 @@ const nav__links=[
           { path: '/about', display: 'Overview' },
           { path: '/about/team', display: 'Team' },
           { path: '/about/history', display: 'History' },
-        ]
+          { path: '/offresDemploi', display: `Offres D'emploi` },
+        ],
+      
     },
     {
         path:'/blog',
         display:'Blog'
+
+    },
+    {
+        path:'/contact',
+        display:'contact'
+
     }
+
 ];
 
 const Header = () => {
@@ -120,8 +129,10 @@ const Header = () => {
             </div>
             <div className="nav_-right d-flex align-items-center gap-4">
               <div className="nav__btns d-flex align-items-center gap-4">
-                <Button className="btn primary__btn"><Link to={'/free-audit'}>Login</Link></Button>
-              </div>
+               <Link to={'/login'}> <Button className="btn primary__btn">Login</Button></Link></div>
+              {/* <div className="nav__btns d-flex align-items-center gap-4">
+                <Button className="btn primary__btn"><Link to={'/register'}>register</Link></Button>
+              </div> */}
               <span className="mobile__menu">
                 <div id="menu-btn" onClick={toggleMenu}>
                   <FontAwesomeIcon icon={faBars} className={menuOpen ? 'fa-times' : ''} />

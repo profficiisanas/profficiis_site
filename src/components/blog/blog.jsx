@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import LinesEllipsis from 'react-lines-ellipsis';
 import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
@@ -117,7 +117,7 @@ const BlogPage = () => {
             <Typography>{comment}</Typography>
           </CardContent>
         ))}
-      </Card>
+      </Card><br /><br /><br />
     </Container>
   );
 };
