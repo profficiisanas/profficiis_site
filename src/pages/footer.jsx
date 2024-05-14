@@ -40,15 +40,16 @@ const FooterCenter = () => {
     <div className="footer-center" data-aos="fade-up" data-aos-delay="200">
       <div>
         <i className="fa fa-map-marker"></i>
-        <p><span>Rabat </span> maroc</p>
+        <p><span>Rabat, </span> Maroc</p>
       </div>
       <div>
         <i className="fa fa-phone"></i>
-        <p>+2126000000</p>
+        <p>+212613465784 </p> </div <br/>
+        <p>+33627655729 </p>
       </div>
       <div>
         <i className="fa fa-envelope"></i>
-        <p><a href="mailto:profficiis@gmail.com">profficiis@gmail.com</a></p>
+        <p><a href="mailto:profficiis@gmail.com">info@profficiis.fr</a></p>
       </div>
     </div>
   );
